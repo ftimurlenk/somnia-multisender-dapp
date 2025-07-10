@@ -6,6 +6,14 @@ This tool is perfect for community managers, developers testing scripts, or anyo
 
 ---
 
+### 🌐 Live Demo
+
+You can try the live application deployed on Vercel at the following address:
+
+**[https://stt-multisender.vercel.app/](https://stt-multisender.vercel.app/)**
+
+---
+
 ### ✨ Key Features
 
 * **Bulk Transfers in a Single Transaction:** Send STT to hundreds of wallets at once with only one signature required.
