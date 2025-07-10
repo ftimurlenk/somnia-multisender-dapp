@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Somnia STT Multisender
 
-## Getting Started
+Somnia STT Multisender is a Web3 application designed to simplify the process of sending STT (Somnia Test Token) to multiple addresses on the Somnia Network. It allows users to perform bulk transfers, or airdrops, in a single, efficient transaction, saving both time and gas fees.
 
-First, run the development server:
+This tool is perfect for community managers, developers testing scripts, or anyone needing to distribute test tokens to multiple recipients on the Somnia Testnet.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ✨ Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **Bulk Transfers in a Single Transaction:** Send STT to hundreds of wallets at once with only one signature required.
+* **Internal Transaction Display:** After a successful transaction, view a detailed list of every individual transfer performed by the smart contract for full transparency.
+* **Modern Wallet Support:** Seamless wallet connection experience powered by [ConnectKit](https://connectkit.family/).
+* **Clean & Simple UI:** A straightforward and user-friendly interface built with Next.js and React for a smooth experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+### 🚀 How to Use
 
-To learn more about Next.js, take a look at the following resources:
+1.  **Connect Your Wallet:** Click the `Connect Wallet` button and approve the connection in your browser wallet (e.g., MetaMask). Ensure you are connected to the **Somnia Testnet**.
+2.  **Prepare Your List:** Paste the recipient addresses into the text area, with each address on a new line.
+3.  **Set the Amount:** Enter the amount of STT you wish to send to *each* individual recipient.
+4.  **Send:** Click the `Send to All Addresses` button and approve the final transaction in your wallet.
+5.  **Review:** Once the transaction is confirmed, you will see a link to the transaction on the block explorer and a detailed list of all the individual transfers that were sent.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 📜 License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.
